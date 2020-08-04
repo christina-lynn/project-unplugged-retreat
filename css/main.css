@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
    /*------------- Base Header - Footer Styles -------------*/
 
    header,
@@ -97,11 +102,24 @@ textarea {
     flex-flow: row wrap;
    }
 
+   header {
+    background: #202322;
+    color: #ffffff;
+    padding: 15px 0;
+   }
+
    header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    padding: 15px 0;
+   }
+
+   .header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
    }
 
    header nav {
@@ -109,12 +127,21 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap; 
+    width: 60%;
    }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
    }
+
+   footer {
+    margin: 0;
+   }
+
+   footer 
 
    footer .social-icons {
     display: flex;
@@ -132,7 +159,7 @@ textarea {
 
    /* Hero Area */
 
-   .hero-area {
+  .hero-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +167,7 @@ textarea {
    }
 
   .hero-content-wrapper {
-
+    margin: 50px 20px;
    }
 
    /* Aside */
@@ -149,11 +176,13 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    background: #527158; 
+    color: #ffffff;
    }
 
    aside .content-wrapper {
-
+    margin: 20px 20px;
    }
 
    aside .form-description {
@@ -177,7 +206,7 @@ textarea {
    }
 
    .features .content-wrapper {
-
+    margin: 20px 20px;
    }
 
    .features .features-items{
@@ -187,8 +216,13 @@ textarea {
     flex-flow: row wrap; 
    }
 
-   article {
+   .features article {
+    width: 55%;
 
+   }
+
+   .features p {
+    margin: 20px 0;
    }
 
    article .font-awesome-icons{
@@ -206,10 +240,16 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap; 
+    background: #2a423a; 
+    color: #ffffff;
    }
 
    .reviews .content-wrapper {
+    margin: 20px 20px;
+   }
 
+   .reviews h3 {
+    width: 46%;
    }
 
 /* ==========================================================================
@@ -221,9 +261,12 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap; 
+    background: #527158;
+    color: #ffffff;
   }
 
   .mission .content-wrapper {
+    margin: 45px 20px;
 
   }
 
@@ -232,7 +275,7 @@ textarea {
   }
 
   .map {
-
+    margin: 0;
   }
 
   .contact-section {
@@ -240,17 +283,15 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #2a423a;
+    color: #ffffff;
   }
 
-  .contact .content-wrapper {
-
+  .contact-section .content-wrapper {
+    margin: 45px 0px;
   }
 
   .contact-content {
-
-  }
-
-  .contact {
 
   }
 
@@ -264,39 +305,70 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap; 
+    background: #527158;
+    color: #ffffff;
    }
 
    .faq .content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap; 
+    margin: 40px 20px;
+   }
+
+   .faq-content {
+
    }
 
    /* Footer styles */
 
    footer {
+    flex-direction: column;
+    background: #202322;
+    color: #ffffff;
+   }
 
+   footer p{
+    margin: 0;
    }
 
    footer .content-wrapper {
-
+    width: 55%;
+    margin: 50px 0;
    }
 
    footer .footer-content {
-
    }
 
-   address .contact {
-
+   footer .contact {
+    text-align: center;
+    margin-bottom: 50px;
    }
 
    footer .social {
+    margin: 50px 20px;
+    text-align: center;
+   }
 
+   footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   footer p {
+    margin: 0;
    }
 
 
+   footer .copyright {
+    margin: 20px 0;
+   }
 
+   .copyright p {
+
+   }
 
 /* ==========================================================================
    Helper classes
