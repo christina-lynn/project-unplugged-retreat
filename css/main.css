@@ -94,15 +94,17 @@ html {
 }
  
 body {
- font-family: 'Open Sans', sans-serif;
- font-size: 1em;
- text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
 ol {
- font-size: 1.125em;
- list-style-type: none;
+  font-size: 1.125em;
+  list-style-type: none;
+  text-transform: uppercase;
 }
  
 a {
@@ -111,20 +113,22 @@ a {
 }
  
 h2 {
- font-family: 'Poppins', sans-serif;
- font-size: 1.875em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
 }
  
-h3 {
- font-family: 'Poppins', sans-serif;
- font-size: 1.125em,
- margin: 20px 0;
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em,
+  margin: 20px 0;
+  font-weight: 500;
 }
  
 p {
-  font-family: 'Open Sans', sans-serif;
   font-size: .875em;
   line-height: 1.285em;
+  font-weight: normal;
 }
  
 img {
@@ -136,11 +140,11 @@ figure {
 }
  
 address h4 {
- font-style: normal;
+  font-style: normal;
 }
 
 address p {
- font-style: normal;
+  font-style: normal;
 }
 
   .content-wrapper {
@@ -160,7 +164,6 @@ address p {
 
    header {
     background: #202322;
-    color: #ffffff;
     padding: 15px 0;
    }
 
@@ -175,6 +178,7 @@ address p {
    .header-divider {
     width: 100%;
     height: 1px;
+    background: #3a3a3a;
     margin: 10px 0 20px 0;
    }
 
@@ -196,7 +200,6 @@ address p {
     flex-direction: column;
     margin: 0;
     background: #202322;
-    color: #ffffff;
    }
 
    footer p{
@@ -249,7 +252,6 @@ address p {
     align-items: center;
     flex-flow: row wrap;
     background: #527158; 
-    color: #ffffff;
    }
 
 
@@ -276,6 +278,7 @@ address p {
    .features article {
     width: 64%;
     margin: 30px 0;
+    text-align: center;
    }
 
    .features p {
@@ -289,7 +292,6 @@ address p {
     justify-content: center;
     flex-flow: row wrap; 
     background: #2a423a; 
-    color: #ffffff;
    }
 
    .reviews h2 {
@@ -311,7 +313,6 @@ address p {
     align-items: center;
     flex-flow: row wrap; 
     background: #527158;
-    color: #ffffff;
   }
 
   .map {
@@ -324,7 +325,6 @@ address p {
     align-items: center;
     flex-flow: row wrap;
     background: #2a423a;
-    color: #ffffff;
   }
 
   .contact-content p {
@@ -342,7 +342,6 @@ address p {
     align-items: center;
     flex-flow: row wrap; 
     background: #527158;
-    color: #ffffff;
    }
 
    .faq .content-wrapper {
@@ -358,9 +357,38 @@ address p {
    }
 
    .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
    }
 
+
+
+
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
