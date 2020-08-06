@@ -87,6 +87,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 1em;
+ text-align: left;
+}
+ 
+ul, 
+ol {
+ font-size: 1.125em;
+ list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.875em;
+}
+ 
+h3 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.125em,
+ margin: 20px 0;
+}
+ 
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .875em;
+  line-height: 1.285em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address h4 {
+ font-style: normal;
+}
+
+address p {
+ font-style: normal;
+}
+
   .content-wrapper {
     width: 90%;
     margin: 50px 0;
@@ -132,9 +188,8 @@ textarea {
 
    header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    list-style-type: none;
    }
 
    footer {
@@ -416,7 +471,7 @@ textarea {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
@@ -426,8 +481,6 @@ textarea {
   .header-divider {
     display: none;
   }
-
-/* Hero Area */
 
 /* Aside */
   aside .content-wrapper {
@@ -449,11 +502,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
 
   .freatures .features-item-description {
-    width: 60%;
+    width: 62%;
   }
 
 
@@ -541,6 +594,10 @@ textarea {
 @media screen and (min-width: 1200px) {
   /*Desktop styles here*/
 
+  header {
+    padding: 15px 0;
+  }
+
   /* General styles */
   .content-wrapper {
     max-width: 960px;
@@ -548,7 +605,7 @@ textarea {
 
 /* Hero Area */
   .hero-area h1 {
-    width: 60%;
+    width: 40%;
 }
 
 
@@ -574,7 +631,7 @@ textarea {
 
   /* Reviews */
   .review article div {
-    width: 45%;
+    width: 50%;
   }
 
 /* ==========================================================================
