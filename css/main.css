@@ -132,11 +132,11 @@ p {
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
- 
+  width: 100%;
 }
  
 address h4 {
@@ -242,7 +242,11 @@ address p {
     display: flex;
     justify-content: center;
     flex-flow: row wrap; 
+    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
+    background-size: cover;
    }
+
+
 
    /* Aside */
 
@@ -261,6 +265,8 @@ address p {
     display: flex;
     justify-content: center;
     flex-flow: row wrap; 
+    background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
+    background-size: cover;
    }
 
 
