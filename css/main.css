@@ -359,10 +359,6 @@ address p {
     background: #527158;
   }
 
-  .map {
-    margin: 0;
-  }
-
   .map figure {
     width: 100%;
     height: 0; 
@@ -371,7 +367,7 @@ address p {
     position: relative;
 }
  
-.map iframe {
+  .map iframe {
     width: 100%;
     height: 100%;
     position: absolute; 
@@ -523,6 +519,16 @@ address p {
     margin: 100px 0;
   }
 
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+
   /* Header */
   header {
     justify-content: space-around;
@@ -557,7 +563,7 @@ address p {
 
   .hero-area h1 {
     font-size: 3em;
-    line-height: 1;
+    line-height: 1em;
     margin: 0;
   }
 
@@ -577,12 +583,17 @@ address p {
   }
 
   /* Features */
+
+  .features h2 {
+    margin-bottom: 20px
+  }
+
   .features article {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    flex-basis: 45%;
+    flex-basis:50%;
   }
 
   .freatures .features-item-description {
@@ -596,8 +607,17 @@ address p {
     justify-content: flex-start;
   }
   
+  .review h2 {
+    width: 85%;
+  }
+
   .review article div {
     width: 50%;
+  }
+
+  .review h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -611,12 +631,21 @@ address p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
 
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: : 1.285em;
   }
 
   footer .copyright {
@@ -637,6 +666,14 @@ address p {
     .mission-content p {
       width: 45%
     }
+
+    .map figure {
+      width: 100%;
+      height: 0; 
+      padding-bottom: 45%; 
+      overflow: hidden;
+      position: relative;
+    }
  
     .contact-section .content-wrapper h2 {
       width: 83%
@@ -656,10 +693,6 @@ address p {
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
-   
-   header {
-    padding: 15px 0;
-   }
 
     .faq .content-wrapper {
       justify-content: space-between;
@@ -708,7 +741,7 @@ address p {
 
   p {
       font-size: 1.125em;
-      line-height: 1.333;
+      line-height: 1.333em;
   }
 
 /* Hero Area */
@@ -743,7 +776,7 @@ address p {
 
   /* Reviews */
   .review article div {
-    width: 50%;
+    width: 45%;
   }
 
   .review h2 {
@@ -762,6 +795,10 @@ address p {
    .contact-section .content-wrapper {
        max-width: 95%;
        font-size: 3em;
+    }
+
+    .map figure {
+      padding-bottom: 38%; 
     }
 
     .contact-content h4 {
